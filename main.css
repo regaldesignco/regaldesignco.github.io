@@ -95,6 +95,7 @@ header a {
 .work a img {
   margin: 1%;
   width: 45%;
+  border-radius: 5px;
 }
 
 .whatIDo {
