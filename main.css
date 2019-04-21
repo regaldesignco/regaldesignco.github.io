@@ -98,6 +98,12 @@ header a {
   border-radius: 5px;
 }
 
+.work a img:hover {
+  -webkit-box-shadow: 10px 11px 38px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 11px 38px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 11px 38px -6px rgba(0,0,0,0.75);
+}
+
 .whatIDo {
   text-align: center;
   margin: 100px 0 200px 0;
