@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,600i');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	background-image: url("images/4bg.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.back-button {
+	display: inline-block;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.back-button a {
+	padding: 1px 8px 1px 13px;
+	border: 2px solid white;
+	border-radius: 50px;
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	transition: ease 0.3s;
+}
+
+.back-button a:hover {
+	background: white;
+	transition: ease 0.3s;
+	color: #c93a7a;
+}
+
+.nav {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 50px;
+}
+
+.nav-item {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #c47db0;
+	margin-bottom: 20px;
+	transition: ease 0.3s;
+}
+
+.nav-item:hover {
+	color: #fff;
+	transition: ease 0.3s;
+}
+
+.active {
+	color: white;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);	
+}
+
+.title h2 {
+	color: white;
+	font-size: 72px;
+	letter-spacing: 10px;
+	font-weight: 600;
+}
+
+.title p {
+	color: #c47db0;
+	text-align: center;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.title p a {
+	text-decoration: none;
+	color: #ff4c93;
+}
+
+#accent {
+	margin-left: 50px;
+	color: #ff4c93;
+	display: inline-block;
+	bottom: 50px;
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.footer-text {
+	margin-left: 50px;
+	bottom: 50px;
+	color: #c47db0;
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.socials {
+  left: -50px;
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+}
+
+.socials:nth-child(3) {
+  padding-right: 50px;
+}
+
+.socials img {
+  float: right;
+  width: 24px;
+  padding: 10px
+}
